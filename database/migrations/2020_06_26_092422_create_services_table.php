@@ -19,6 +19,7 @@ class CreateServicesTable extends Migration
             $table->string('service');
             $table->string('description');
             $table->decimal('price', 8, 2);
+            
         });
     }
 
