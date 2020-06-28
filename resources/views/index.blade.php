@@ -23,6 +23,14 @@
             Tratnjek
         </div>
 
+        @foreach ($services as $service)
+        <div>
+           <h1>{{ $service->service }}</h1>
+            <p>{{ $service->description}}</p>
+            <h2>{{ $service->price}}</h2>  
+        </div>
+         @endforeach
+
     </div>
 </div>
     
